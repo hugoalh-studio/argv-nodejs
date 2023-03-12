@@ -49,7 +49,7 @@ import args from "@hugoalh/args";// Default Import
 
 #### Value
 
-- **`args`:** `<string[]>` Additional command line arguments.
+- **`argv`:** `<string[]>` Additional command line arguments.
 - **`binIndex`:** `<0 | 1>` Index of bin in `process.argv`.
 - **`binPath`:** `<string>` Path of the file is execute.
 - **`isBundledElectronJSProgram`:** `<boolean>` Whether the process is execute from bundled ElectronJS program.
@@ -61,7 +61,7 @@ import args from "@hugoalh/args";// Default Import
 
 | **`args.________`** | **`node bin.js argv1 argv2 ...argvn`** | **`bin argv1 argv2 ...argvn`** | **`electron bin.js argv1 argv2 ...argvn`** |
 |:-:|:-:|:-:|:-:|
-| **`args`** | `["argv1", "argv2", ..., "argvn"]` | `["argv1", "argv2", ..., "argvn"]` | `["argv1", "argv2", ..., "argvn"]` |
+| **`argv`** | `["argv1", "argv2", ..., "argvn"]` | `["argv1", "argv2", ..., "argvn"]` | `["argv1", "argv2", ..., "argvn"]` |
 | **`binIndex`** | `1` | `0` | `1` |
 | **`binPath`** | `"/path-to/bin.js"` | `"/path-to/bin"` | `"/path-to/bin.js"` |
 | **`isBundledElectronJSProgram`** | `false` | `true` | `false` |

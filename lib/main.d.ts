@@ -2,7 +2,7 @@
  * @constant {readonly string[]} args
  * @description Additional command line arguments.
  */
-export const args: readonly string[];
+export const argv: readonly string[];
 /**
  * @constant {0 | 1} binIndex
  * @description Index of bin in `process.argv`.
