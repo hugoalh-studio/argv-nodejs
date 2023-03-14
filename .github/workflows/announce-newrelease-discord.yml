@@ -13,7 +13,7 @@ jobs:
           key: "${{secrets.DISCORD_HXHS_PROJECTNEWRELEASEANNOUNCER_WEBHOOK}}"
           payload: |
             embeds:
-              - title: "Args (NodeJS)"
+              - title: "Argv (NodeJS)"
                 description: |
                   > ${{github.event.repository.description}}
 
@@ -34,6 +34,6 @@ jobs:
                   - name: "Releases"
                     value: |
                       **- GitHub (& Changelog):** ${{github.event.release.html_url}}
-                      **- NPM:** https://www.npmjs.com/package/@hugoalh/args
+                      **- NPM:** https://www.npmjs.com/package/@hugoalh/argv
                     inline: false
           wait: "true"

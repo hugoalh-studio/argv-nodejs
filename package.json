@@ -1,13 +1,13 @@
 {
-	"name": "@hugoalh/args",
+	"name": "@hugoalh/argv",
 	"version": "1.0.0",
 	"description": "A module to correctly slice off `process.argv`.",
 	"keywords": [
-		"args"
+		"argv"
 	],
-	"homepage": "https://github.com/hugoalh-studio/args-nodejs#readme",
+	"homepage": "https://github.com/hugoalh-studio/argv-nodejs#readme",
 	"bugs": {
-		"url": "https://github.com/hugoalh-studio/args-nodejs/issues"
+		"url": "https://github.com/hugoalh-studio/argv-nodejs/issues"
 	},
 	"license": "MIT",
 	"author": "hugoalh",
@@ -15,10 +15,10 @@
 	"types": "./lib/main.d.ts",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/hugoalh-studio/args-nodejs.git"
+		"url": "git+https://github.com/hugoalh-studio/argv-nodejs.git"
 	},
 	"devDependencies": {
-		"@types/node": "^18.15.0",
+		"@types/node": "^18.15.2",
 		"eslint": "^8.36.0",
 		"eslint-plugin-only-warn": "^1.1.0",
 		"typescript": "^4.9.5"
