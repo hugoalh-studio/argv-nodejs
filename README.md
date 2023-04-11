@@ -21,9 +21,7 @@ A NodeJS module to correctly slice off [`process.argv`](https://nodejs.org/api/p
 
 ## 📚 Documentation
 
-### Getting Started
-
-#### Install
+### Target
 
 - NodeJS >= v6.9.0
 
@@ -31,18 +29,10 @@ A NodeJS module to correctly slice off [`process.argv`](https://nodejs.org/api/p
 npm install @hugoalh/argv
 ```
 
-#### Use
-
-##### CommonJS
-
 ```js
-const argv = require("@hugoalh/argv");
-```
-
-##### ModuleJS
-
-```js
-import argv from "@hugoalh/argv";// Default Import
+/* Either */
+const argv = require("@hugoalh/argv");// [CommonJS] Require
+import argv from "@hugoalh/argv";// [ModuleJS] Default Import
 ```
 
 ### API
