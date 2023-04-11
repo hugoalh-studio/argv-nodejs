@@ -1,8 +1,7 @@
 # Argv (NodeJS)
 
-[`Argv.NodeJS`](https://github.com/hugoalh-studio/argv-nodejs)
-
 ![License](https://img.shields.io/static/v1?label=License&message=MIT&style=flat-square "License")
+[![GitHub Repository](https://img.shields.io/badge/Repository-181717?logo=github&logoColor=ffffff&style=flat-square "GitHub Repository")](https://github.com/hugoalh-studio/argv-nodejs)
 [![GitHub Stars](https://img.shields.io/github/stars/hugoalh-studio/argv-nodejs?label=Stars&logo=github&logoColor=ffffff&style=flat-square "GitHub Stars")](https://github.com/hugoalh-studio/argv-nodejs/stargazers)
 [![GitHub Contributors](https://img.shields.io/github/contributors/hugoalh-studio/argv-nodejs?label=Contributors&logo=github&logoColor=ffffff&style=flat-square "GitHub Contributors")](https://github.com/hugoalh-studio/argv-nodejs/graphs/contributors)
 [![GitHub Issues](https://img.shields.io/github/issues-raw/hugoalh-studio/argv-nodejs?label=Issues&logo=github&logoColor=ffffff&style=flat-square "GitHub Issues")](https://github.com/hugoalh-studio/argv-nodejs/issues)
@@ -21,7 +20,7 @@ A NodeJS module to correctly slice off [`process.argv`](https://nodejs.org/api/p
 
 ## 📚 Documentation
 
-### Target
+### Getting Started
 
 - NodeJS >= v6.9.0
 
