@@ -22,7 +22,7 @@ A NodeJS module to correctly slice off [`process.argv`](https://nodejs.org/api/p
 
 ### Getting Started
 
-- NodeJS >= v6.9.0
+- NodeJS ^ v12.20.0 \|\| ^ v14.15.0 \|\| >= v16.13.0
 
 ```sh
 npm install @hugoalh/argv
@@ -30,8 +30,8 @@ npm install @hugoalh/argv
 
 ```js
 /* Either */
-const argv = require("@hugoalh/argv");// [CommonJS] Require
-import argv from "@hugoalh/argv";// [ModuleJS] Default Import
+import { ... } from "@hugoalh/argv";// Named Import
+import * as argv from "@hugoalh/argv";// Namespace Import
 ```
 
 ### API

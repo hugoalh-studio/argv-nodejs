@@ -1,16 +1,3 @@
-/*
-Pattern of `process.argv`:
-
-[Standard NodeJS Program] node bin.js args1 args2 ...argsn
-[Bundled ElectronJS Program] bin args1 args2 ...argsn
-[Unbundled ElectronJS Program] electron bin.js args1 args2 ...argsn
-*/
-/*
-`process.defaultApp` is set by unbundled ElectronJS program, see https://github.com/electron/electron/blob/main/docs/api/process.md#processdefaultapp-readonly
-*/
-/*
-`process.versions.electron` is set by ElectronJS program, see https://github.com/electron/electron/blob/main/docs/api/process.md#processversionselectron-readonly
-*/
 /**
  * @constant {boolean} isElectronJSProgram
  * @description Whether the process is execute from ElectronJS program.
@@ -46,12 +33,4 @@ const isUnbundledElectronJSProgram = !isBundledElectronJSProgram;
  * @description Path of the executable file is execute.
  */
 const programPath = process.argv[0];
-module.exports = {
-	args,
-	binIndex,
-	binPath,
-	isBundledElectronJSProgram,
-	isElectronJSProgram,
-	isUnbundledElectronJSProgram,
-	programPath
-};
+export { args, binIndex, binPath, isBundledElectronJSProgram, isElectronJSProgram, isUnbundledElectronJSProgram, programPath };
