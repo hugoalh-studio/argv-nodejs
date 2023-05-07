@@ -18,8 +18,8 @@
 		"url": "git+https://github.com/hugoalh-studio/argv-nodejs.git"
 	},
 	"devDependencies": {
-		"@types/node": "^18.15.13",
-		"eslint": "^8.39.0",
+		"@types/node": "^18.16.5",
+		"eslint": "^8.40.0",
 		"eslint-plugin-only-warn": "^1.1.0",
 		"typescript": "^5.0.4"
 	},
