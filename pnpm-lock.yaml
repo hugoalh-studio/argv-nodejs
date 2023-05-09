@@ -1,13 +1,13 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@types/node': ^18.16.5
+  '@types/node': ^20.1.1
   eslint: ^8.40.0
   eslint-plugin-only-warn: ^1.1.0
   typescript: ^5.0.4
 
 devDependencies:
-  '@types/node': 18.16.5
+  '@types/node': 20.1.1
   eslint: 8.40.0
   eslint-plugin-only-warn: 1.1.0
   typescript: 5.0.4
@@ -92,8 +92,8 @@ packages:
       fastq: 1.15.0
     dev: true
 
-  /@types/node/18.16.5:
-    resolution: {integrity: sha512-seOA34WMo9KB+UA78qaJoCO20RJzZGVXQ5Sh6FWu0g/hfT44nKXnej3/tCQl7FL97idFpBhisLYCTB50S0EirA==}
+  /@types/node/20.1.1:
+    resolution: {integrity: sha512-uKBEevTNb+l6/aCQaKVnUModfEMjAl98lw2Si9P5y4hLu9tm6AlX2ZIoXZX6Wh9lJueYPrGPKk5WMCNHg/u6/A==}
     dev: true
 
   /acorn-jsx/5.3.2_acorn@8.8.2:
