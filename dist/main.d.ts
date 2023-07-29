@@ -1,37 +1,29 @@
 /**
- * @constant {boolean} isElectronJSProgram
- * @description Whether the process is execute from ElectronJS program.
+ * Whether the process is execute from ElectronJS program.
  */
-declare const isElectronJSProgram: boolean;
+export declare const isElectronJSProgram: boolean;
 /**
- * @constant {boolean} isBundledElectronJSProgram
- * @description Whether the process is execute from bundled ElectronJS program.
+ * Whether the process is execute from bundled ElectronJS program.
  */
-declare const isBundledElectronJSProgram: boolean;
+export declare const isBundledElectronJSProgram: boolean;
 /**
- * @constant {0 | 1} binIndex
- * @description Index of bin in `process.argv`.
+ * Index of bin in `process.argv`.
  */
-declare const binIndex: 0 | 1;
+export declare const binIndex: 0 | 1;
 /**
- * @constant {readonly string[]} args
- * @description Additional command line arguments.
+ * Additional command line arguments.
  */
-declare const args: readonly string[];
+export declare const args: readonly string[];
 /**
- * @constant {string} binPath
- * @description Path of the file is execute.
+ * Path of the file is execute.
  */
-declare const binPath: string;
+export declare const binPath: string;
 /**
- * @constant {boolean} isUnbundledElectronJSProgram
- * @description Whether the process is execute from unbundled ElectronJS program.
+ * Whether the process is execute from unbundled ElectronJS program.
  */
-declare const isUnbundledElectronJSProgram: boolean;
+export declare const isUnbundledElectronJSProgram: boolean;
 /**
- * @constant {string} programPath
- * @description Path of the executable file is execute.
+ * Path of the executable file is execute.
  */
-declare const programPath: string;
-export { args, binIndex, binPath, isBundledElectronJSProgram, isElectronJSProgram, isUnbundledElectronJSProgram, programPath };
+export declare const programPath: string;
 //# sourceMappingURL=main.d.ts.map
