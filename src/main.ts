@@ -36,7 +36,7 @@ export const binPath: string = process.argv[binIndex];
 /**
  * Whether the process is execute from unbundled ElectronJS program.
  */
-export const isUnbundledElectronJSProgram = (isElectronJSProgram && (process as ElectronJSProcess).defaultApp === true);
+export const isUnbundledElectronJSProgram: boolean = (isElectronJSProgram && (process as ElectronJSProcess).defaultApp === true);
 /**
  * Path of the executable file is execute.
  */
