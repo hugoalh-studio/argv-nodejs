@@ -52,6 +52,8 @@ A NodeJS module to correctly slice off [`process.argv`](https://nodejs.org/api/p
   const programPath: string;// Path of the executable file is execute.
   ```
 
+> **ℹ️ Notice:** Documentation is included inside the script file.
+
 ## ✍️ Example
 
 | **`argv.________`** | **`node bin.js args1 args2 ...argsn`** | **`bin args1 args2 ...argsn`** | **`electron bin.js args1 args2 ...argsn`** |
