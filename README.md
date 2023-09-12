@@ -10,33 +10,47 @@
 
 A NodeJS module to correctly slice off [`process.argv`](https://nodejs.org/api/process.html#processargv).
 
-## 📓 Documentation
+## 🔰 Begin
 
-### Getting Started
+### NodeJS
 
-- NodeJS ^ v12.20.0 \|\| ^ v14.15.0 \|\| >= v16.13.0
+- **Target Version:** ^ v12.20.0 \|\| ^ v14.15.0 \|\| >= v16.13.0, &:
+  - TypeScript >= v5.1.0 *\[Development\]*
+- **Require Permission:** *N/A*
+- **Domain/Registry:**
+  - [NPM](https://www.npmjs.com/package/@hugoalh/argv)
+    ```sh
+    npm install @hugoalh/argv
+    ```
+    ```js
+    import ... from "@hugoalh/argv";
+    ```
 
-```sh
-npm install @hugoalh/argv
-```
+> **ℹ️ Notice:** It is also able to import part of the module with sub path if available, see [file `package.json`](./package.json) property `exports` for available sub paths.
 
-```js
-/* Either */
-import { ... } from "@hugoalh/argv";// Named Import
-import * as argv from "@hugoalh/argv";// Namespace Import
-```
+## 🧩 API
 
-### API
-
-#### Value
-
-- **`args`:** `<string[]>` Additional command line arguments.
-- **`binIndex`:** `<0 | 1>` Index of bin in `process.argv`.
-- **`binPath`:** `<string>` Path of the file is execute.
-- **`isBundledElectronJSProgram`:** `<boolean>` Whether the process is execute from bundled ElectronJS program.
-- **`isElectronJSProgram`:** `<boolean>` Whether the process is execute from ElectronJS program.
-- **`isUnbundledElectronJSProgram`:** `<boolean>` Whether the process is execute from unbundled ElectronJS program.
-- **`programPath`:** `<string>` Path of the executable file is execute.
+- ```ts
+  const args: string;// Additional command line arguments.
+  ```
+- ```ts
+  const binIndex: 0 | 1;// Index of bin in `process.argv`.
+  ```
+- ```ts
+  const binPath: string;// Path of the file is execute.
+  ```
+- ```ts
+  const isBundledElectronJSProgram: boolean;// Whether the process is execute from bundled ElectronJS program.
+  ```
+- ```ts
+  const isElectronJSProgram: boolean;// Whether the process is execute from ElectronJS program.
+  ```
+- ```ts
+  const isUnbundledElectronJSProgram: boolean;// Whether the process is execute from unbundled ElectronJS program.
+  ```
+- ```ts
+  const programPath: string;// Path of the executable file is execute.
+  ```
 
 ### Example
 
