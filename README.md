@@ -52,7 +52,7 @@ A NodeJS module to correctly slice off [`process.argv`](https://nodejs.org/api/p
   const programPath: string;// Path of the executable file is execute.
   ```
 
-### Example
+## ✍️ Example
 
 | **`argv.________`** | **`node bin.js args1 args2 ...argsn`** | **`bin args1 args2 ...argsn`** | **`electron bin.js args1 args2 ...argsn`** |
 |:-:|:-:|:-:|:-:|
