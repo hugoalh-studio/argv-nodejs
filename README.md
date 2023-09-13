@@ -12,6 +12,24 @@ A NodeJS module to correctly slice off [`process.argv`](https://nodejs.org/api/p
 
 ## 🔰 Begin
 
+### Bun
+
+> **🧪 Experimental:** Bun is still under development.
+
+- **Target Version:** ^ v1.0.0, &:
+  - TypeScript >= v5.1.0 *\[Development\]*
+- **Require Permission:** *N/A*
+- **Domain/Registry:**
+  - [NPM](https://www.npmjs.com/package/@hugoalh/argv)
+    ```sh
+    bun add @hugoalh/argv
+    ```
+    ```js
+    import ... from "@hugoalh/argv[@<Tag>]";
+    ```
+
+> **ℹ️ Notice:** It is also able to import part of the module with sub path if available, see [file `package.json`](./package.json) property `exports` for available sub paths.
+
 ### NodeJS
 
 - **Target Version:** ^ v12.20.0 \|\| ^ v14.15.0 \|\| >= v16.13.0, &:
