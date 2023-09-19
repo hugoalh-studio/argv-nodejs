@@ -22,7 +22,7 @@ A NodeJS module to correctly slice off [`process.argv`](https://nodejs.org/api/p
 - **Domain/Registry:**
   - [NPM](https://www.npmjs.com/package/@hugoalh/argv)
     ```sh
-    bun add @hugoalh/argv
+    bun add @hugoalh/argv[@<Tag>]
     ```
     ```js
     import ... from "@hugoalh/argv[@<Tag>]";
@@ -38,7 +38,7 @@ A NodeJS module to correctly slice off [`process.argv`](https://nodejs.org/api/p
 - **Domain/Registry:**
   - [NPM](https://www.npmjs.com/package/@hugoalh/argv)
     ```sh
-    npm install @hugoalh/argv
+    npm install @hugoalh/argv[@<Tag>]
     ```
     ```js
     import ... from "@hugoalh/argv";
