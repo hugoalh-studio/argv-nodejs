@@ -2,22 +2,24 @@
 
 ## Supported Versions
 
-> | **Legend** | **Description** |
-> |:-:|:--|
-> | L | **LTS:** Long term supported. |
-> | ✔️ | **Active / Current:** Currently supported. |
-> | 👎{🐛} | **Partially (Issue):** Partially supported due to confirmed contains bugs and/or issues. |
-> | 👎{🧓} | **Partially (Old):** Partially supported due to deprecated by newer versions. |
-> | ❌{🐛} | **No (Issue):** Not supported due to confirmed contains bugs and/or issues. |
-> | ❌{🧓} | **No (Old):** Not supported due to too old. |
+> | **Support** | **Legend** | **Description** |
+> |:-:|:-:|:--|
+> | ✔️ | 🟤 | Pending / Pre Release / Unstable |
+> | ✔️ | 🔵 | Current Release |
+> | ✔️ | 🟢 | Long Term Support |
+> | ✔️ | 🟠 | Maintenance |
+> | ❌ | 🔴 | End of Life |
 
-| **Versions** | **Status** | **Target - Bun** | **Target - NodeJS** |
-|:-:|:-:|:-:|:-:|
-| v2.X.X | L | ^ v1.0.0 | ^ v12.20.0 \|\| ^ v14.15.0 \|\| >= v16.13.0 |
-| v1.X.X | ❌{🧓} | *N/A* | >= v6.9.0 |
+| **Versions** | **Status** | **🔵 Date** | **🟢 Date** | **🔴 Date** | **Target - Bun** | **Target - NodeJS** |
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| v2.X.X | 🟢 | 2023-05-09 | 2023-08-01 | *Unknown* | ^ v1.0.0 | ^ v12.20.0 \|\| ^ v14.15.0 \|\| >= v16.13.0 |
 
-## Report Vulnerability
+> **ℹ️ Notice:**
+>
+> - The date format is according to ISO 8601 standard.
+> - Values in italic format are subject to change.
+> - Versions which not in the list are also end of life.
 
-If you believe you have found any security vulnerability, please report it via the [Security Advisories system](https://github.com/hugoalh-studio/argv-nodejs/security/advisories/new) instead of create an issue and/or report it publicly.
+## Report A Vulnerability
 
-All new reports may need `~48 hours (~2 days)` to begin the process.
+You can report a security vulnerability by [create a security vulnerability report](https://github.com/hugoalh/hugoalh/blob/main/universal-guide/contributing.md#create-a-security-vulnerability-report).
