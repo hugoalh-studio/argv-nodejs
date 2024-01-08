@@ -32,7 +32,7 @@ A NodeJS module to correctly slice off [`process.argv`](https://nodejs.org/api/p
 
 ### NodeJS
 
-- **Target Version:** ^ v12.20.0 \|\| ^ v14.15.0 \|\| >= v16.13.0, &:
+- **Target Version:** >= v20.9.0, &:
   - TypeScript >= v5.1.0 *\[Development\]*
 - **Require Permission:** *N/A*
 - **Domain/Registry:**
