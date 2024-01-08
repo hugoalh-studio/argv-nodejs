@@ -12,7 +12,7 @@
 
 | **Versions** | **Status** | **🔵 Date** | **🟢 Date** | **🔴 Date** | **Target - Bun** | **Target - NodeJS** |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| v3.X.X | 🟤 | *Unknown* | *Unknown* | *Unknown* | ^ v1.0.0 | >= v20.9.0 |
+| v3.X.X | 🟤 | *Unknown* | *Unknown* | *Unknown* | ^ v1.0.0 | >= v16.13.0 |
 | v2.X.X | 🟢 | 2023-05-09 | 2023-08-01 | *Unknown* | ^ v1.0.0 | ^ v12.20.0 \|\| ^ v14.15.0 \|\| >= v16.13.0 |
 
 > **ℹ️ Notice:**
