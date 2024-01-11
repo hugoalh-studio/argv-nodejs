@@ -20,7 +20,7 @@ export const isElectronJSProgram: boolean = typeof (process as ElectronJSProcess
 /**
  * Whether the process is execute from bundled ElectronJS program.
  */
-export const isBundledElectronJSProgram: boolean = (isElectronJSProgram && typeof (process as ElectronJSProcess).defaultApp === "undefined");
+export const isBundledElectronJSProgram: boolean = isElectronJSProgram && typeof (process as ElectronJSProcess).defaultApp === "undefined";
 /**
  * Index of bin in `process.argv`.
  */
@@ -36,7 +36,7 @@ export const binPath: string = process.argv[binIndex];
 /**
  * Whether the process is execute from unbundled ElectronJS program.
  */
-export const isUnbundledElectronJSProgram: boolean = (isElectronJSProgram && (process as ElectronJSProcess).defaultApp === true);
+export const isUnbundledElectronJSProgram: boolean = isElectronJSProgram && (process as ElectronJSProcess).defaultApp === true;
 /**
  * Path of the executable file is execute.
  */
