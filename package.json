@@ -23,7 +23,7 @@
 		"url": "git+https://github.com/hugoalh-studio/argv-nodejs.git"
 	},
 	"scripts": {
-		"build-dist": "tsc"
+		"build": "tsc"
 	},
 	"devDependencies": {
 		"@stylistic/eslint-plugin": "^1.5.4",
