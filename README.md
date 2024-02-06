@@ -16,7 +16,7 @@ A NodeJS module to correctly slice off [`process.argv`](https://nodejs.org/api/p
 - **Target Version:** >= v16.13.0, &:
   - TypeScript >= v5.1.0 *\[Development\]*
 - **Require Permission:** *N/A*
-- **Domain/Registry:**
+- **Registry:**
   - [NPM](https://www.npmjs.com/package/@hugoalh/argv)
     ```sh
     npm install @hugoalh/argv[@<Tag>]
