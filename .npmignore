@@ -3,6 +3,7 @@
 !bin/**
 !dist/**
 !lib/**
+!CITATION.cff
 !LICENSE.md
 !package.json
 !README.md
