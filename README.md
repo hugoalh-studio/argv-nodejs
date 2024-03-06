@@ -1,31 +1,41 @@
 # Argv (NodeJS)
 
-[⚖️ MIT](./LICENSE.md)
+[**⚖️** MIT](./LICENSE.md)
 
-|  | **Release - Latest** | **Release - Pre** |
-|:-:|:-:|:-:|
-| [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=ffffff&style=flat-square "GitHub")](https://github.com/hugoalh-studio/argv-nodejs) | ![GitHub Latest Release Version](https://img.shields.io/github/release/hugoalh-studio/argv-nodejs?sort=semver&label=&style=flat-square "GitHub Latest Release Version") (![GitHub Latest Release Date](https://img.shields.io/github/release-date/hugoalh-studio/argv-nodejs?label=&style=flat-square "GitHub Latest Release Date")) | ![GitHub Latest Pre-Release Version](https://img.shields.io/github/release/hugoalh-studio/argv-nodejs?include_prereleases&sort=semver&label=&style=flat-square "GitHub Latest Pre-Release Version") (![GitHub Latest Pre-Release Date](https://img.shields.io/github/release-date-pre/hugoalh-studio/argv-nodejs?label=&style=flat-square "GitHub Latest Pre-Release Date")) |
-| [![NPM](https://img.shields.io/badge/NPM-CB3837?logo=npm&logoColor=ffffff&style=flat-square "NPM")](https://www.npmjs.com/package/@hugoalh/argv) | ![NPM Latest Release Version](https://img.shields.io/npm/v/@hugoalh/argv/latest?label=&style=flat-square "NPM Latest Release Version") | ![NPM Latest Pre-Release Version](https://img.shields.io/npm/v/@hugoalh/argv/pre?label=&style=flat-square "NPM Latest Pre-Release Version") |
+**🗂️**
+[![GitHub: hugoalh-studio/argv-nodejs](https://img.shields.io/badge/hugoalh--studio/argv--nodejs-181717?logo=github&logoColor=ffffff&style=flat "GitHub: hugoalh-studio/argv-nodejs")](https://github.com/hugoalh-studio/argv-nodejs)
+[![NPM: @hugoalh/argv](https://img.shields.io/badge/@hugoalh/argv-CB3837?logo=npm&logoColor=ffffff&style=flat "NPM: @hugoalh/argv")](https://www.npmjs.com/package/@hugoalh/argv)
+
+**🆙** ![Latest Release Version](https://img.shields.io/github/release/hugoalh-studio/argv-nodejs?sort=semver&color=2187C0&label=&style=flat "Latest Release Version") (![Latest Release Date](https://img.shields.io/github/release-date/hugoalh-studio/argv-nodejs?color=2187C0&label=&style=flat "Latest Release Date"))
 
 A NodeJS module to correctly slice off [`process.argv`](https://nodejs.org/api/process.html#processargv).
 
-## 🔰 Begin
+## 🎯 Target
 
-### NodeJS
+- NodeJS >= v16.13.0
 
-- **Target Version:** >= v16.13.0, &:
-  - TypeScript >= v5.1.0 *\[Development\]*
-- **Require Permission:** *N/A*
-- **Registry:**
-  - [NPM](https://www.npmjs.com/package/@hugoalh/argv)
-    ```sh
-    npm install @hugoalh/argv[@<Tag>]
-    ```
+## 🔰 Usage
+
+1. Install via console/shell/terminal:
+    - Via NPM
+      ```sh
+      npm install @hugoalh/argv[@<Tag>]
+      ```
+    - Via PNPM
+      ```sh
+      pnpm add @hugoalh/argv[@<Tag>]
+      ```
+    - Via Yarn
+      ```sh
+      yarn add @hugoalh/argv[@<Tag>]
+      ```
+2. Import at the script (`<ScriptName>.js`):
     ```js
     import ... from "@hugoalh/argv";
     ```
-
-> **ℹ️ Notice:** It is also able to import part of the module with sub path if available, see [file `package.json`](./package.json) property `exports` for available sub paths.
+    > **ℹ️ Note**
+    >
+    > Although it is recommended to import the entire module, it is also able to import part of the module with sub path if available, please visit [file `package.json`](./package.json) property `exports` for available sub paths.
 
 ## 🧩 API
 
@@ -50,8 +60,6 @@ A NodeJS module to correctly slice off [`process.argv`](https://nodejs.org/api/p
 - ```ts
   const programPath: string;// Path of the executable file is execute.
   ```
-
-> **ℹ️ Notice:** Documentation is included inside the script file.
 
 ## ✍️ Example
 
