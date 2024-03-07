@@ -29,10 +29,10 @@ jobs:
                 url: "${{github.event.release.author.html_url}}"
                 icon_url: "${{github.event.release.author.avatar_url}}"
               fields:
-                - name: "GitHub - Release & Changelog"
+                - name: "Release & Changelog (GitHub Release)"
                   value: "${{github.event.release.html_url}}"
                   inline: false
-                - name: "GitHub - Repository"
+                - name: "GitHub"
                   value: "${{github.event.repository.html_url}}"
                   inline: false
                 - name: "NPM"
