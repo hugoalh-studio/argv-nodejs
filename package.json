@@ -16,9 +16,9 @@
 		"bin/**",
 		"dist/**",
 		"lib/**",
-		"LICENSE.md",
+		"LICENSE*.md",
 		"package.json",
-		"README.md"
+		"README*.md"
 	],
 	"type": "module",
 	"main": "./dist/main.js",
