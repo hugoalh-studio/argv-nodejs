@@ -2,11 +2,8 @@
 
 [**⚖️** MIT](./LICENSE.md)
 
-**🗂️**
-[![GitHub: hugoalh-studio/argv-nodejs](https://img.shields.io/badge/hugoalh--studio/argv--nodejs-181717?logo=github&logoColor=ffffff&style=flat "GitHub: hugoalh-studio/argv-nodejs")](https://github.com/hugoalh-studio/argv-nodejs)
-[![NPM: @hugoalh/argv](https://img.shields.io/badge/@hugoalh/argv-CB3837?logo=npm&logoColor=ffffff&style=flat "NPM: @hugoalh/argv")](https://www.npmjs.com/package/@hugoalh/argv)
-
-**🆙** ![Latest Release Version](https://img.shields.io/github/release/hugoalh-studio/argv-nodejs?sort=semver&color=2187C0&label=&style=flat "Latest Release Version") (![Latest Release Date](https://img.shields.io/github/release-date/hugoalh-studio/argv-nodejs?color=2187C0&label=&style=flat "Latest Release Date"))
+[![GitHub: hugoalh-studio/argv-nodejs](https://img.shields.io/github/v/release/hugoalh-studio/argv-nodejs?label=hugoalh-studio/argv-nodejs&labelColor=181717&logo=github&logoColor=ffffff&sort=semver&style=flat "GitHub: hugoalh-studio/argv-nodejs")](https://github.com/hugoalh-studio/argv-nodejs)
+[![NPM: @hugoalh/argv](https://img.shields.io/npm/v/@hugoalh/argv?label=@hugoalh/argv&labelColor=CB3837&logo=npm&logoColor=ffffff&style=flat "NPM: @hugoalh/argv")](https://www.npmjs.com/package/@hugoalh/argv)
 
 A NodeJS module to correctly slice off [`process.argv`](https://nodejs.org/api/process.html#processargv).
 
@@ -16,26 +13,28 @@ A NodeJS module to correctly slice off [`process.argv`](https://nodejs.org/api/p
 
 ## 🔰 Usage
 
-1. Install via console/shell/terminal:
-    - Via NPM
+1. Install via:
+    - NPM
       ```sh
-      npm install @hugoalh/argv[@<Tag>]
+      npm install @hugoalh/argv[@${Tag}]
       ```
-    - Via PNPM
+    - PNPM
       ```sh
-      pnpm add @hugoalh/argv[@<Tag>]
+      pnpm add @hugoalh/argv[@${Tag}]
       ```
-    - Via Yarn
+    - Yarn
       ```sh
-      yarn add @hugoalh/argv[@<Tag>]
+      yarn add @hugoalh/argv[@${Tag}]
       ```
-2. Import at the script (`<ScriptName>.js`):
-    ```js
+2. Import at the script:
+    ```ts
     import ... from "@hugoalh/argv";
     ```
-    > **ℹ️ Note**
-    >
-    > Although it is recommended to import the entire module, it is also able to import part of the module with sub path if available, please visit [file `package.json`](./package.json) property `exports` for available sub paths.
+
+> **ℹ️ Note**
+>
+> - Although it is recommended to import the entire module, it is also able to import part of the module with sub path if available, please visit [file `package.json`](./package.json) property `exports` for available sub paths.
+> - It is recommended to import the module with tag for immutability.
 
 ## 🧩 API
 
