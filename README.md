@@ -7,36 +7,35 @@
 
 A NodeJS module to correctly slice off [`process.argv`](https://nodejs.org/api/process.html#processargv).
 
-## 🎯 Target
+## 🔰 Begin
 
-- NodeJS >= v16.13.0
+### 🎯 Targets
 
-## 🔰 Usage
+|  | **Registry - NPM** |
+|:--|:--|
+| **[NodeJS](https://nodejs.org/)** >= v16.13.0 | [✔️ `node_modules`](https://docs.npmjs.com/using-npm-packages-in-your-projects) |
 
-1. Install via:
-    - NPM
-      ```sh
-      npm install @hugoalh/argv[@${Tag}]
-      ```
-    - PNPM
-      ```sh
-      pnpm add @hugoalh/argv[@${Tag}]
-      ```
-    - Yarn
-      ```sh
-      yarn add @hugoalh/argv[@${Tag}]
-      ```
-2. Import at the script:
-    ```ts
-    import ... from "@hugoalh/argv";
-    ```
+> **ℹ️ Note**
+>
+> It is possible to use this module in other methods/ways which not listed in here, however it is not officially supported.
+
+### #️⃣ Registries Identifier
+
+- **NPM:**
+  ```
+  @hugoalh/is-primitive
+  ```
 
 > **ℹ️ Note**
 >
 > - Although it is recommended to import the entire module, it is also able to import part of the module with sub path if available, please visit [file `package.json`](./package.json) property `exports` for available sub paths.
-> - It is recommended to import the module with tag for immutability.
+> - It is recommended to use this module with tag for immutability.
 
-## 🧩 API
+### 🛡️ Permissions
+
+*This module does not require any permission.*
+
+## 🧩 APIs
 
 - ```ts
   const args: string;// Additional command line arguments.
@@ -60,7 +59,7 @@ A NodeJS module to correctly slice off [`process.argv`](https://nodejs.org/api/p
   const programPath: string;// Path of the executable file is execute.
   ```
 
-## ✍️ Example
+## ✍️ Examples
 
 | **`argv.________`** | **`node bin.js args1 args2 ...argsn`** | **`bin args1 args2 ...argsn`** | **`electron bin.js args1 args2 ...argsn`** |
 |:-:|:-:|:-:|:-:|
