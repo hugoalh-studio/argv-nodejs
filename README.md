@@ -61,9 +61,9 @@ A NodeJS module to correctly slice off [`process.argv`](https://nodejs.org/api/p
 
 ## ✍️ Examples
 
-| **`argv.________`** | **`node bin.js args1 args2 ...argsn`** | **`bin args1 args2 ...argsn`** | **`electron bin.js args1 args2 ...argsn`** |
+| **`argv.________`** | **`node bin.js args1 args2 ...argsN`** | **`bin args1 args2 ...argsN`** | **`electron bin.js args1 args2 ...argsN`** |
 |:-:|:-:|:-:|:-:|
-| **`args`** | `["args1", "args2", ..., "argsn"]` | `["args1", "args2", ..., "argsn"]` | `["args1", "args2", ..., "argsn"]` |
+| **`args`** | `["args1", "args2", ..., "argsN"]` | `["args1", "args2", ..., "argsN"]` | `["args1", "args2", ..., "argsN"]` |
 | **`binIndex`** | `1` | `0` | `1` |
 | **`binPath`** | `"/path-to/bin.js"` | `"/path-to/bin"` | `"/path-to/bin.js"` |
 | **`isBundledElectronJSProgram`** | `false` | `true` | `false` |
