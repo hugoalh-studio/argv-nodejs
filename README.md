@@ -41,19 +41,19 @@ A NodeJS module to correctly slice off [`process.argv`](https://nodejs.org/api/p
   const args: string;// Additional command line arguments.
   ```
 - ```ts
-  const binIndex: 0 | 1;// Index of bin in `process.argv`.
+  const binIndex: 0 | 1;// Index of bin in the `process.argv`.
   ```
 - ```ts
   const binPath: string;// Path of the file is execute.
   ```
 - ```ts
-  const isBundledElectronJSProgram: boolean;// Whether the process is execute from bundled ElectronJS program.
+  const isBundledElectronJSProgram: boolean;// Whether the process is execute from the bundled ElectronJS program.
   ```
 - ```ts
-  const isElectronJSProgram: boolean;// Whether the process is execute from ElectronJS program.
+  const isElectronJSProgram: boolean;// Whether the process is execute from the ElectronJS program.
   ```
 - ```ts
-  const isUnbundledElectronJSProgram: boolean;// Whether the process is execute from unbundled ElectronJS program.
+  const isUnbundledElectronJSProgram: boolean;// Whether the process is execute from the unbundled ElectronJS program.
   ```
 - ```ts
   const programPath: string;// Path of the executable file is execute.
